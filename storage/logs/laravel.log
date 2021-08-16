@@ -1,0 +1,230 @@
+[2021-07-17 08:13:28] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(237): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(404): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(112): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(ParseError))
+#6 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#8 {main}
+"} 
+[2021-07-17 08:13:28] laravel.ERROR: syntax error, unexpected '=', expecting ']' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '=', expecting ']' at /Users/macbook/Programming/sith/laramission/config/app.php:231)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#7 {main}
+"} 
+[2021-07-17 08:13:31] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(237): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(404): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(112): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(ParseError))
+#6 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#8 {main}
+"} 
+[2021-07-17 08:13:31] laravel.ERROR: syntax error, unexpected '=', expecting ']' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '=', expecting ']' at /Users/macbook/Programming/sith/laramission/config/app.php:231)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#7 {main}
+"} 
+[2021-07-17 08:13:49] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(237): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(404): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(112): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(ParseError))
+#6 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#8 {main}
+"} 
+[2021-07-17 08:13:49] laravel.ERROR: syntax error, unexpected '=', expecting ']' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '=', expecting ']' at /Users/macbook/Programming/sith/laramission/config/app.php:231)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#7 {main}
+"} 
+[2021-07-17 08:13:53] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(237): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(404): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(112): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(ParseError))
+#6 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#8 {main}
+"} 
+[2021-07-17 08:13:53] laravel.ERROR: syntax error, unexpected '=', expecting ']' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '=', expecting ']' at /Users/macbook/Programming/sith/laramission/config/app.php:231)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#7 {main}
+"} 
+[2021-07-17 08:22:05] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(237): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(404): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(112): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(ParseError))
+#6 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#8 {main}
+"} 
+[2021-07-17 08:22:05] laravel.ERROR: syntax error, unexpected '=', expecting ']' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '=', expecting ']' at /Users/macbook/Programming/sith/laramission/config/app.php:4)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#7 {main}
+"} 
+[2021-07-17 08:22:21] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(237): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(404): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(112): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(ParseError))
+#6 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#8 {main}
+"} 
+[2021-07-17 08:22:21] laravel.ERROR: syntax error, unexpected '=', expecting ']' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '=', expecting ']' at /Users/macbook/Programming/sith/laramission/config/app.php:4)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#7 {main}
+"} 
+[2021-07-17 08:22:28] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(237): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(404): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(112): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(ParseError))
+#6 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#8 {main}
+"} 
+[2021-07-17 08:22:28] laravel.ERROR: syntax error, unexpected '=', expecting ']' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '=', expecting ']' at /Users/macbook/Programming/sith/laramission/config/app.php:4)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#7 {main}
+"} 
+[2021-07-17 08:22:30] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(237): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(404): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(112): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(ParseError))
+#6 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#8 {main}
+"} 
+[2021-07-17 08:22:30] laravel.ERROR: syntax error, unexpected '=', expecting ']' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '=', expecting ']' at /Users/macbook/Programming/sith/laramission/config/app.php:4)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#7 {main}
+"} 
+[2021-07-17 08:22:46] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(237): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(404): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(112): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(ParseError))
+#6 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#8 {main}
+"} 
+[2021-07-17 08:22:46] laravel.ERROR: syntax error, unexpected '=', expecting ']' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '=', expecting ']' at /Users/macbook/Programming/sith/laramission/config/app.php:4)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#7 {main}
+"} 
+[2021-07-17 08:23:07] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(237): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(404): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(112): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(ParseError))
+#6 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#8 {main}
+"} 
+[2021-07-17 08:23:07] laravel.ERROR: syntax error, unexpected '=', expecting ']' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '=', expecting ']' at /Users/macbook/Programming/sith/laramission/config/app.php:4)
+[stacktrace]
+#0 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 /Users/macbook/Programming/sith/laramission/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 /Users/macbook/Programming/sith/laramission/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 /Users/macbook/Programming/sith/laramission/server.php(21): require_once('/Users/macbook/...')
+#7 {main}
+"} 
